@@ -11,6 +11,3 @@ scriptフォルダ内のコードはすべて自作。
 　空想曲線 https://kopacurve.blog.fc2.com/
 　H/MIX GARRELY http://www.hmix.net/
 　効果音ラボ https://soundeffect-lab.info/
- 
-課題
- NavMeshで追従させているオブジェクトがterrainのtreeに引っかかり挙動がおかしくなってしまう。
