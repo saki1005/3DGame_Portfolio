@@ -7,7 +7,7 @@ public class AnimalManager : MonoBehaviour
 {
     NavMeshAgent agent;
     Animator anim;
-    public AudioSource audioSource;
+    public GameObject SE;
 
     [SerializeField] ParticleSystem particle;
     public Transform target;
@@ -26,7 +26,7 @@ public class AnimalManager : MonoBehaviour
         if (other.gameObject.tag == "Player" && isStalking)
         {
             particle.gameObject.SetActive(true);
-            audioSource.Play();
+            SE.gameObject.SetActive(true);
         }
         if (other.gameObject.tag == "Gate" && !isStalking)
         {
